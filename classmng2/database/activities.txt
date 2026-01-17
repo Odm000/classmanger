@@ -1,0 +1,27 @@
+===Database classflow
+
+== Table structure for table activities
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|student_id|int(11)|No|
+|subject_id|int(11)|No|
+|title|varchar(255)|Yes|
+|score|decimal(6,2)|Yes|0.00
+|created_at|timestamp|No|CURRENT_TIMESTAMP
+== Dumping data for table activities
+
+|1|2|2|Laboratory 1|88.00|2025-11-29 23:40:14
+|2|6|2|Laboratory 1|96.00|2025-11-29 23:49:23
+|3|6|2|Quiz 1|48.00|2025-11-29 23:49:38
+|4|6|2|Laboratory 2|87.00|2025-12-01 02:33:02
+|5|1|1|Laboratory 1|50.00|2025-12-01 11:32:02
+|6|1|1|Laboratory 2|85.00|2025-12-01 11:34:05
+|7|1|1|Quiz 1|15.00|2025-12-01 11:36:23
+|8|1|1|Laboratory 3|43.00|2025-12-01 11:44:39
+|10|1|1|Quiz 2|38.00|2025-12-01 11:55:40
+|11|61|2|Recitation|20.00|2025-12-15 10:08:26
+|12|49|3|Laboratory|20.00|2025-12-15 11:37:25
+|13|47|3|Laboratory 1|94.00|2025-12-15 11:38:09

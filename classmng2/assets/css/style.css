@@ -1,0 +1,8 @@
+/* Basic styles and theme */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+body{ font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:#f7f9fb; color:#222;}
+.left-sidebar{ background:white;}
+.btn-orange{ background: #ff8a00; border-color: #ff8a00; color: #fff; }
+.card.subject-card:hover{ transform: translateY(-4px); transition: all .18s ease; box-shadow: 0 10px 20px rgba(0,0,0,.06); }
+.student-tile:hover{ transform: translateY(-6px); transition: all .18s ease; box-shadow: 0 12px 24px rgba(0,0,0,.06); }
